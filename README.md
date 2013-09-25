@@ -18,7 +18,7 @@ For development you should check out the code into a useful location as follows 
      cd ckanext-pubsub
      python setup.py develop
 
-## Configuration 
+## Configuration
 
 Add the plugin to the ckan.plugins setting in your CKAN .ini file
 
