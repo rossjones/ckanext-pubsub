@@ -1,10 +1,14 @@
 
-# ckanext-pubsub
+# [WIP] ckanext-pubsub
 
 
 ## Intro
 
-ckanext-pubsub is a [CKAN](http://ckan.org) extension that notifies a [pubsubhubbub](https://code.google.com/p/pubsubhubbub/) server whenever a dataset is published, or substantially modified [1]
+ckanext-pubsub is a [CKAN](http://ckan.org) extension that notifies user when datasets change or new ones are added.  It does this in one of three ways:
+
+ * You can add some words, and when a new dataset is added, if it matches some percentage of the terms - you get email.
+ * You can choose to _watch_ specific datasets, and get notified when they change via email.
+ * It notifies a [pubsubhubbub](https://code.google.com/p/pubsubhubbub/) server whenever a dataset is published, or substantially modified [1] with a link to the Atom feed.
 
 ## Installation
 
