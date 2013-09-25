@@ -1,0 +1,4 @@
+
+
+class PubSubPlugin(object):
+    pass
